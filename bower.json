@@ -1,0 +1,21 @@
+{
+    "name": "BlackMask",
+    "version": "1.0.0",
+    "description": "Simple input mask for AngularJS",
+    "author": "alex.shteinikov@gmail.com",
+    "license": "MIT",
+    "main": "dist/blackmask.js",
+    "repository": {
+        "type": "git",
+        "url": "git://https://github.com/idooo/ng-blackmask"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "demo"
+    ],
+        "dependencies": {
+        "angular": "1.2.19"
+    }
+}
