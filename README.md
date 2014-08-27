@@ -1,7 +1,7 @@
 ng-blackmask
 ============
 
-Simple input mask for AngularJS. See a demo [here](http://shteinikov.com/p/ng-blackmask/demo/)
+Simple input mask for AngularJS. [Demo](http://shteinikov.com/p/ng-blackmask/demo/)
 
 Installation
 ------------
