@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
     <script src="../bower_components/angular/angular.js"></script>
-    <script src="../dist/blackmask.js"></script>
+    <script src="../src/blackmask.js"></script>
     <script>
 
         var app = angular.module('blackMaskDemo', [
@@ -18,7 +18,7 @@
     </script>
 
     <style>
-        input {
+        input.std {
             font-size: 20px;
             letter-spacing: 4px;
             margin: 50px;
@@ -29,6 +29,31 @@
             margin: 50px;
             padding: 10px;
         }
+
+        .ng-bm-element {
+            border: 1px solid #555;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .ng-bm-container > input {
+            border:none;
+            font-size: 20px;
+            border-bottom: 1px solid #aaa;
+            width: 15px;
+            margin: 0;
+            padding: 0;
+            margin-right: 4px;
+            outline: none;
+            color : transparent;
+            text-shadow : 0 0 0 #000;
+            text-align: center;
+        }
+
+        .ng-bm-container > input:focus {
+            background-color: #ddd;
+        }
+
     </style>
 
 </head>
