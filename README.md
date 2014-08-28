@@ -28,3 +28,7 @@ How to use
 ```html
 <input type="text" name="field" ng-model="field" bm-numbers-mask max-length="9" placeholder="*">
 ```
+
+Browser support
+----------
+IE8+, Chrome, Firefox, iOS 7 Safari/Chrome. Unfortunately Android browsers don't work with this mask correctly so be careful if you want to support them
